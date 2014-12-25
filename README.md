@@ -3,8 +3,8 @@
 React 是一款用于开发用户界面(UI)的 JavaScript 类库.
 
 * **Just the UI:** 很多人将 React 用作 MVC 中的 **V**(View,视图,展示界面). 因为使用 React 不要求掌握其他的特定技能(makes no assumptions about the rest of your technology stack), 所以集成到一个现有项目上是很容易的.
-* **Virtual DOM:** React uses a *virtual DOM* diff implementation for ultra-high performance. It can also render on the server using Node.js — no heavy browser DOM required.
-* **Data flow:** React implements one-way reactive data flow which reduces boilerplate and is easier to reason about than traditional data binding.
+* **Virtual DOM:** 为了暴高的性能(ultra-high performance), React 使用一个 *virtual DOM* 的不同实现(diff implementation). 也可以通过 Node.js 在服务端进行渲染 — 不再需要笨重的 browser DOM.
+* **Data flow:** React 实现了单向(one-way)的数据流反应(reactive data flow),  这能减少样板文件(boilerplate),比起传统的数据绑定(traditional data binding)更容易推导和分析(reason about).
 
 请参考: [React 快速入门.](http://facebook.github.io/react/docs/getting-started.html)
 
@@ -29,7 +29,7 @@ React.render(
 
 可以看到, 我们使用了一种类似HTML的语法(HTML-like syntax); [我们称之为 JSX](http://facebook.github.io/react/docs/jsx-in-depth.html). 在 React 中也可以不用 JSX, 但 JSX 让代码更具有可读性(readable), 而且书写起来就和HTML差不多. React中包含一个简单的转换程序, 允许将JSX转换成浏览器识别的原生JavaScript.
 
-## Installation
+## 安装使用(Installation)
 
 最简单的方式是引用 CDN 上的 JavaScript(也可以使用 [cdnjs](https://cdnjs.com/libraries/react) 或者 [jsdelivr](http://www.jsdelivr.com/#!react)):
 
@@ -40,7 +40,7 @@ React.render(
 <script src="http://fb.me/JSXTransformer-0.12.2.js"></script>
 ```
 
-如果你是第一次接触 React,可以参考我们编写的新手工具包: [starter kit](http://facebook.github.io/react/downloads/react-0.12.2.zip) . 里面包含了一个web页面, 使用生动的代码来演示如何使用React.
+如果你是第一次接触 React,可以参考我们编写的新手工具包: [starter kit](http://facebook.github.io/react/downloads/react-0.12.2.zip) . 里面包含一个web页面, 使用动态代码(live code, 实时响应)来演示React的使用.
 
 如果使用 [bower](http://bower.io), 那也相当简单:
 
@@ -48,9 +48,10 @@ React.render(
 bower install --save react
 ```
 
-## Contribute
+## 帮助我们(Contribute)
 
-The main purpose of this repository is to continue to evolve React core, making it faster and easier to use. If you're interested in helping with that, then keep reading. If you're not interested in helping right now that's ok too. :) Any feedback you have about using React would be greatly appreciated.
+这个仓库的主要目的是持续发展 React core, 使它更快, 更容易使用. 如果你有兴趣,请继续往下阅读. 如果现在对Contribute不感兴趣也没关系. :) 关于 React 的任何反馈我们都不胜感激.
+
 
 ### 编译自己的 React 代码
 
