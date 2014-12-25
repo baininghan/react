@@ -92,14 +92,14 @@ grunt lint
 grunt clean
 ```
 
-### License
+### 许可协议(License)
 
-React is [BSD licensed](./LICENSE). We also provide an additional [patent grant](./PATENTS).
+React 受 [BSD license](./LICENSE) 保护. 我们还提供了一份附加的 [专利许可文档](./PATENTS).
 
-React documentation is [Creative Commons licensed](./LICENSE-docs).
+React 文档使用的协议是“知识共享许可”: [Creative Commons licensed](./LICENSE-docs).
 
-Examples provided in this repository and in the documentation are [separately licensed](./LICENSE-examples).
+本仓库中的示例(Examples),以及文档中的示例都使用 [单独的授权协议](./LICENSE-examples).
 
-### More…
+### 更多信息…
 
-There's only so much we can cram in here. To read more about the community and guidelines for submitting pull requests, please read the [Contributing document](CONTRIBUTING.md).
+我们要说明的信息就这么多. 如果你想加入我们的社区或者提交pull requests, 请参考 [Contributing document](CONTRIBUTING.md).
