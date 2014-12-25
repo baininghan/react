@@ -10,7 +10,7 @@ React 是一款用于开发用户界面(UI)的 JavaScript 类库.
 
 ## 示例
 
-We have several examples 在[GitHub仓库](http://facebook.github.io/react/)中有一些示例. 下面是第一个示例,可以让你快速上手:
+在GitHub.io的[React项目Pages](http://facebook.github.io/react/)中有很多示例. 下面是第一个,可以帮你快速上手:
 
 ```js
 var HelloMessage = React.createClass({
