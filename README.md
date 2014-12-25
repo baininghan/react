@@ -1,6 +1,6 @@
 # [React](http://facebook.github.io/react) [![Build Status](https://travis-ci.org/facebook/react.svg?branch=master)](https://travis-ci.org/facebook/react)
 
-React is a JavaScript library for building user interfaces.
+React 是一款用于开发用户界面(UI)的 JavaScript 类库.
 
 * **Just the UI:** Lots of people use React as the V in MVC. Since React makes no assumptions about the rest of your technology stack, it's easy to try it out on a small feature in an existing project.
 * **Virtual DOM:** React uses a *virtual DOM* diff implementation for ultra-high performance. It can also render on the server using Node.js — no heavy browser DOM required.
@@ -8,9 +8,9 @@ React is a JavaScript library for building user interfaces.
 
 [Learn how to use React in your own project.](http://facebook.github.io/react/docs/getting-started.html)
 
-## Examples
+## 示例
 
-We have several examples [on the website](http://facebook.github.io/react/). Here is the first one to get you started:
+We have several examples 在[GitHub仓库](http://facebook.github.io/react/)中有一些示例. 下面是第一个示例,可以让你快速上手:
 
 ```js
 var HelloMessage = React.createClass({
