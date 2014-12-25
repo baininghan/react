@@ -2,11 +2,11 @@
 
 React 是一款用于开发用户界面(UI)的 JavaScript 类库.
 
-* **Just the UI:** Lots of people use React as the V in MVC. Since React makes no assumptions about the rest of your technology stack, it's easy to try it out on a small feature in an existing project.
+* **Just the UI:** 很多人将 React 用作 MVC 中的 **V**(View,视图,展示界面). 因为使用 React 不要求掌握其他的特定技能(makes no assumptions about the rest of your technology stack), 所以集成到一个现有项目上是很容易的.
 * **Virtual DOM:** React uses a *virtual DOM* diff implementation for ultra-high performance. It can also render on the server using Node.js — no heavy browser DOM required.
 * **Data flow:** React implements one-way reactive data flow which reduces boilerplate and is easier to reason about than traditional data binding.
 
-[Learn how to use React in your own project.](http://facebook.github.io/react/docs/getting-started.html)
+请参考: [React 快速入门.](http://facebook.github.io/react/docs/getting-started.html)
 
 ## 示例
 
@@ -25,9 +25,9 @@ React.render(
 );
 ```
 
-This example will render "Hello John" into a container on the page.
+这个例子将 "Hello John" 渲染到页面中的一个容器里.
 
-You'll notice that we used an HTML-like syntax; [we call it JSX](http://facebook.github.io/react/docs/jsx-in-depth.html). JSX is not required to use React, but it makes code more readable, and writing it feels like writing HTML. A simple transform is included with React that allows converting JSX into native JavaScript for browsers to digest.
+可以看到, 我们使用了一种类似HTML的语法(HTML-like syntax); [我们称之为 JSX](http://facebook.github.io/react/docs/jsx-in-depth.html). 在 React 中也可以不用 JSX, 但 JSX 让代码更具有可读性(readable), 而且书写起来就和HTML差不多. React中包含一个简单的转换程序, 允许将JSX转换成浏览器识别的原生JavaScript.
 
 ## Installation
 
@@ -36,11 +36,11 @@ You'll notice that we used an HTML-like syntax; [we call it JSX](http://facebook
 ```html
 <!-- React 核心库 -->
 <script src="http://fb.me/react-0.12.2.js"></script>
-<!-- In-browser JSX transformer, remove when pre-compiling JSX. -->
+<!-- 在浏览器里执行的(In-browser) JSX 转换器(transformer), 如果已经预编译(pre-compiling)了JSX, 则移除即可. -->
 <script src="http://fb.me/JSXTransformer-0.12.2.js"></script>
 ```
 
-We've also built a [starter kit](http://facebook.github.io/react/downloads/react-0.12.2.zip) which might be useful if this is your first time using React. It includes a webpage with an example of using React with live code.
+如果你是第一次接触 React,可以参考我们编写的新手工具包: [starter kit](http://facebook.github.io/react/downloads/react-0.12.2.zip) . 里面包含了一个web页面, 使用生动的代码来演示如何使用React.
 
 如果使用 [bower](http://bower.io), 那也相当简单:
 
