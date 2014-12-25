@@ -31,10 +31,10 @@ You'll notice that we used an HTML-like syntax; [we call it JSX](http://facebook
 
 ## Installation
 
-The fastest way to get started is to serve JavaScript from the CDN (also available on [cdnjs](https://cdnjs.com/libraries/react) and [jsdelivr](http://www.jsdelivr.com/#!react)):
+最简单的方式是引用 CDN 上的 JavaScript(也可以使用 [cdnjs](https://cdnjs.com/libraries/react) 或者 [jsdelivr](http://www.jsdelivr.com/#!react)):
 
 ```html
-<!-- The core React library -->
+<!-- React 核心库 -->
 <script src="http://fb.me/react-0.12.2.js"></script>
 <!-- In-browser JSX transformer, remove when pre-compiling JSX. -->
 <script src="http://fb.me/JSXTransformer-0.12.2.js"></script>
@@ -42,7 +42,7 @@ The fastest way to get started is to serve JavaScript from the CDN (also availab
 
 We've also built a [starter kit](http://facebook.github.io/react/downloads/react-0.12.2.zip) which might be useful if this is your first time using React. It includes a webpage with an example of using React with live code.
 
-If you'd like to use [bower](http://bower.io), it's as easy as:
+如果使用 [bower](http://bower.io), 那也相当简单:
 
 ```sh
 bower install --save react
@@ -52,49 +52,49 @@ bower install --save react
 
 The main purpose of this repository is to continue to evolve React core, making it faster and easier to use. If you're interested in helping with that, then keep reading. If you're not interested in helping right now that's ok too. :) Any feedback you have about using React would be greatly appreciated.
 
-### Building Your Copy of React
+### 编译自己的 React 代码
 
-The process to build `react.js` is built entirely on top of node.js, using many libraries you may already be familiar with.
+对 `react.js` 的整个编译过程都需要在 node.js 上运行, 要用到的很多库你可能已经非常熟悉了.
 
-#### Prerequisites
+#### 准备条件(Prerequisites)
 
-* You have `node` installed at v0.10.0+ (it might work at lower versions, we just haven't tested).
-* You are familiar with `npm` and know whether or not you need to use `sudo` when installing packages globally.
-* You are familiar with `git`.
+* 安装了 v0.10.0+ 版本以上的 `node` (在低版本应该也能运行,但我们没测试过).
+* 熟悉 `npm`, 并了解在安装全局 package 的时候是否需要使用 `sudo` 来控制.
+* 熟悉版本管理工具 `git` .
 
-#### Build
+#### 编译(Build)
 
-Once you have the repository cloned, building a copy of `react.js` is really easy.
+将仓库克隆完成后, 编译 `react.js` 那是相当的Easy.
 
 ```sh
-# grunt-cli is needed by grunt; you might have this installed already
+# grunt 需要使用 grunt-cli; 必须先安装, 如果已经有则省略
 npm install -g grunt-cli
 npm install
 grunt build
 ```
 
-At this point, you should now have a `build/` directory populated with everything you need to use React. The examples should all work.
+到这一步, React 所需要的一切都应该在 `build/` 目录中存在了. 示例也应该一切正常.
 
 ### Grunt
 
-We use grunt to automate many tasks. Run `grunt -h` to see a mostly complete listing. The important ones to know:
+我们通过 grunt 来执行许多自动化任务. 可以通过 `grunt -h` 来查看完整的命令选项列表. 常用的包括下面这些:
 
 ```sh
-# Build and run tests with PhantomJS
+# 构建并使用 PhantomJS 进行测试
 grunt test
-# Build and run tests in your browser
+# 构建并在浏览器中进行测试
 grunt test --debug
-# For speed, you can use fasttest and add --filter to only run one test
+# 要节省时间, 还可以 fasttest 指令并且添加  --filter 选项来运行单个测试
 grunt fasttest --filter=ReactIdentity
-# Lint the code with JSHint
+# 使用 JSHint 进行代码分析(Lint)
 grunt lint
-# Wipe out build directory
+# 清理(Wipe out) 构建目录
 grunt clean
 ```
 
 ### 许可协议(License)
 
-React 受 [BSD license](./LICENSE) 保护. 我们还提供了一份附加的 [专利许可文档](./PATENTS).
+React 受 [BSD license](./LICENSE) 保护. 我们还提供了一份附加的 [专利许可文件](./PATENTS).
 
 React 文档使用的协议是“知识共享许可”: [Creative Commons licensed](./LICENSE-docs).
 
