@@ -1,4 +1,4 @@
-# [React](http://facebook.github.io/react) [![Build Status](https://travis-ci.org/facebook/react.svg?branch=master)](https://travis-ci.org/facebook/react)
+# [React](http://blog.cncounter.com/react) [![Build Status](https://travis-ci.org/facebook/react.svg?branch=master)](https://travis-ci.org/facebook/react)
 
 React 是一款用于开发用户界面(UI)的 JavaScript 类库.
 
@@ -6,11 +6,11 @@ React 是一款用于开发用户界面(UI)的 JavaScript 类库.
 * **Virtual DOM:** 为了暴高的性能(ultra-high performance), React 使用一个 *virtual DOM* 的不同实现(diff implementation). 也可以通过 Node.js 在服务端进行渲染 — 不再需要笨重的 browser DOM.
 * **Data flow:** React 实现了单向(one-way)的数据流反应(reactive data flow),  这能减少样板文件(boilerplate),比起传统的数据绑定(traditional data binding)更容易推导和分析(reason about).
 
-请参考: [React 快速入门.](http://facebook.github.io/react/docs/getting-started.html)
+请参考: [React 快速入门.](http://blog.cncounter.com/react/docs/getting-started.html)
 
 ## 示例
 
-在GitHub.io的[React项目Pages](http://facebook.github.io/react/)中有很多示例. 下面是第一个,可以帮你快速上手:
+在GitHub.io的[React项目Pages](http://blog.cncounter.com/react/)中有很多示例. 下面是第一个,可以帮你快速上手:
 
 ```js
 var HelloMessage = React.createClass({
@@ -27,7 +27,7 @@ React.render(
 
 这个例子将 "Hello John" 渲染到页面中的一个容器里.
 
-可以看到, 我们使用了一种类似HTML的语法(HTML-like syntax); [我们称之为 JSX](http://facebook.github.io/react/docs/jsx-in-depth.html). 在 React 中也可以不用 JSX, 但 JSX 让代码更具有可读性(readable), 而且书写起来就和HTML差不多. React中包含一个简单的转换程序, 允许将JSX转换成浏览器识别的原生JavaScript.
+可以看到, 我们使用了一种类似HTML的语法(HTML-like syntax); [我们称之为 JSX](http://blog.cncounter.com/react/docs/jsx-in-depth.html). 在 React 中也可以不用 JSX, 但 JSX 让代码更具有可读性(readable), 而且书写起来就和HTML差不多. React中包含一个简单的转换程序, 允许将JSX转换成浏览器识别的原生JavaScript.
 
 ## 安装使用(Installation)
 
@@ -40,7 +40,7 @@ React.render(
 <script src="http://fb.me/JSXTransformer-0.12.2.js"></script>
 ```
 
-如果你是第一次接触 React,可以参考我们编写的新手工具包: [starter kit](http://facebook.github.io/react/downloads/react-0.12.2.zip) . 里面包含一个web页面, 使用动态代码(live code, 实时响应)来演示React的使用.
+如果你是第一次接触 React,可以参考我们编写的新手工具包: [starter kit](http://blog.cncounter.com/react/downloads/react-0.12.2.zip) . 里面包含一个web页面, 使用动态代码(live code, 实时响应)来演示React的使用.
 
 如果使用 [bower](http://bower.io), 那也相当简单:
 
