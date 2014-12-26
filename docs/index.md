@@ -1,6 +1,6 @@
 ---
 layout: page
-title: A JavaScript library for building user interfaces
+title: 一款开发UI界面的 JavaScript 类库
 id: home
 ---
 
