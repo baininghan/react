@@ -6,7 +6,7 @@ React 是一款用于开发用户界面(UI)的 JavaScript 类库.
 * **Virtual DOM:** 为了暴高的性能(ultra-high performance), React 使用一个 *virtual DOM* 的不同实现(diff implementation). 也可以通过 Node.js 在服务端进行渲染 — 不再需要笨重的 browser DOM.
 * **Data flow:** React 实现了单向(one-way)的数据流反应(reactive data flow),  这能减少样板文件(boilerplate),比起传统的数据绑定(traditional data binding)更容易推导和分析(reason about).
 
-请参考: [React 快速入门.](http://blog.cncounter.com/react/docs/getting-started.html)
+请参考: [React 快速入门.](http://blog.cncounter.com/react/docs/getting-started.zh-CN.html)
 
 ## 示例
 
