@@ -8,13 +8,13 @@
   <meta name="viewport" content="width=device-width">
   <meta property="og:title" content="Thinking in React | React">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="http://facebook.github.io/react/blog/2013/11/05/thinking-in-react.html">
-  <meta property="og:image" content="http://facebook.github.io/react/img/logo_og.png">
-  <meta property="og:description" content="A JavaScript library for building user interfaces">
+  <meta property="og:url" content="http://blog.cncounter.com/react/blog/2013/11/05/thinking-in-react.html">
+  <meta property="og:image" content="http://blog.cncounter.com/react/img/logo_og.png">
+  <meta property="og:description" content="一个创建用户界面(UI)的 JAVASCRIPT 库">
   <meta property="fb:app_id" content="623268441017527">
 
   <link rel="shortcut icon" href="/react/favicon.ico">
-  <link rel="alternate" type="application/rss+xml" title="React" href="http://facebook.github.io/react/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="React" href="http://blog.cncounter.com/react/feed.xml">
 
   <link rel="stylesheet" href="/react/css/syntax.css">
   <link rel="stylesheet" href="/react/css/codemirror.css">
@@ -48,9 +48,9 @@
         <ul class="nav-site">
           <li><a href="/react/docs/getting-started.html">docs</a></li>
           <li><a href="/react/support.html">support</a></li>
-          <li><a href="/react/downloads.html">download</a></li>
+          <li><a href="/react/downloads.html">下载</a></li>
           <li><a href="/react/blog/" class="active">blog</a></li>
-          <li><a href="http://github.com/facebook/react">github</a>
+          <li><a href="http://github.com/renfufei/react">github</a>
         </ul>
       </div>
     </div>
@@ -159,9 +159,9 @@
 
 <p>At the end of this step you&#39;ll have a library of reusable components that render your data model. The components will only have <code>render()</code> methods since this is a static version of your app. The component at the top of the hierarchy (<code>FilterableProductTable</code>) will take your data model as a prop. If you make a change to your underlying data model and call <code>renderComponent()</code> again the UI will be updated. It&#39;s easy to see how your UI is updated and where to make changes since there&#39;s nothing complicated going on since React&#39;s <strong>one-way data flow</strong> (also called <em>one-way binding</em>) keeps everything modular, easy to reason about, and fast.</p>
 
-<p>Simply refer to the <a href="http://facebook.github.io/react/docs/">React docs</a> if you need help executing this step.</p>
+<p>Simply refer to the <a href="http://blog.cncounter.com/react/docs/">React docs</a> if you need help executing this step.</p>
 <h3><a class="anchor" name="a-brief-interlude-props-vs-state"></a>A brief interlude: props vs state <a class="hash-link" href="#a-brief-interlude-props-vs-state">#</a></h3>
-<p>There are two types of &quot;model&quot; data in React: props and state. It&#39;s important to understand the distinction between the two; skim <a href="http://facebook.github.io/react/docs/interactivity-and-dynamic-uis.html">the official React docs</a> if you aren&#39;t sure what the difference is.</p>
+<p>There are two types of &quot;model&quot; data in React: props and state. It&#39;s important to understand the distinction between the two; skim <a href="http://blog.cncounter.com/react/docs/interactivity-and-dynamic-uis.html">the official React docs</a> if you aren&#39;t sure what the difference is.</p>
 <h2><a class="anchor" name="step-3-identify-the-minimal-but-complete-representation-of-ui-state"></a>Step 3: Identify the minimal (but complete) representation of UI state <a class="hash-link" href="#step-3-identify-the-minimal-but-complete-representation-of-ui-state">#</a></h2>
 <p>To make your UI interactive you need to be able to trigger changes to your underlying data model. React makes this easy with <strong>state</strong>.</p>
 
@@ -255,21 +255,21 @@
   <div id="fb-root"></div>
 
   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (function(i,s,o,g,r,a,m){if(2+2>0){return;}i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-41298772-1', 'facebook.github.io');
-    ga('send', 'pageview');
+    //ga('create', 'UA-41298772-1', 'facebook.github.io');
+    //ga('send', 'pageview');
 
-    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+    //!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 
     (function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
       if (d.getElementById(id)) return;
       js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=623268441017527";
-      fjs.parentNode.insertBefore(js, fjs);
+      //js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=623268441017527";
+      //fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
   </script>
 </body>

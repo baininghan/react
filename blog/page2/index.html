@@ -8,13 +8,13 @@
   <meta name="viewport" content="width=device-width">
   <meta property="og:title" content="Blog | React">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="http://facebook.github.io/react/blog/page2/index.html">
-  <meta property="og:image" content="http://facebook.github.io/react/img/logo_og.png">
-  <meta property="og:description" content="A JavaScript library for building user interfaces">
+  <meta property="og:url" content="http://blog.cncounter.com/react/blog/page2/index.html">
+  <meta property="og:image" content="http://blog.cncounter.com/react/img/logo_og.png">
+  <meta property="og:description" content="一个创建用户界面(UI)的 JAVASCRIPT 库">
   <meta property="fb:app_id" content="623268441017527">
 
   <link rel="shortcut icon" href="/react/favicon.ico">
-  <link rel="alternate" type="application/rss+xml" title="React" href="http://facebook.github.io/react/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="React" href="http://blog.cncounter.com/react/feed.xml">
 
   <link rel="stylesheet" href="/react/css/syntax.css">
   <link rel="stylesheet" href="/react/css/codemirror.css">
@@ -48,9 +48,9 @@
         <ul class="nav-site">
           <li><a href="/react/docs/getting-started.html">docs</a></li>
           <li><a href="/react/support.html">support</a></li>
-          <li><a href="/react/downloads.html">download</a></li>
+          <li><a href="/react/downloads.html">下载</a></li>
           <li><a href="/react/blog/" class="active">blog</a></li>
-          <li><a href="http://github.com/facebook/react">github</a>
+          <li><a href="http://github.com/renfufei/react">github</a>
         </ul>
       </div>
     </div>
@@ -496,7 +496,7 @@ Minified build for production: <a href="http://fb.me/react-with-addons-0.12.0-rc
         <p class="meta">September 24, 2014 by Bill Fisher</p>
         <hr />
         <div class="post">
-         <p><a href="http://facebook.github.io/flux/">Flux</a> is the application architecture that Facebook uses to build web applications with <a href="http://facebook.github.io/react/">React</a>. It&#39;s based on a unidirectional data flow. In previous blog posts and documentation articles, we&#39;ve shown the <a href="http://facebook.github.io/flux/docs/overview.html">basic structure and data flow</a>, more closely examined the <a href="http://facebook.github.io/react/blog/2014/07/30/flux-actions-and-the-dispatcher.html">dispatcher and action creators</a>, and shown how to put it all together with a <a href="http://facebook.github.io/flux/docs/todo-list.html">tutorial</a>. Now let&#39;s look at how to do formal unit testing of Flux applications with <a href="http://facebook.github.io/jest/">Jest</a>, Facebook&#39;s auto-mocking testing framework.</p>
+         <p><a href="http://facebook.github.io/flux/">Flux</a> is the application architecture that Facebook uses to build web applications with <a href="http://blog.cncounter.com/react/">React</a>. It&#39;s based on a unidirectional data flow. In previous blog posts and documentation articles, we&#39;ve shown the <a href="http://facebook.github.io/flux/docs/overview.html">basic structure and data flow</a>, more closely examined the <a href="http://blog.cncounter.com/react/blog/2014/07/30/flux-actions-and-the-dispatcher.html">dispatcher and action creators</a>, and shown how to put it all together with a <a href="http://facebook.github.io/flux/docs/todo-list.html">tutorial</a>. Now let&#39;s look at how to do formal unit testing of Flux applications with <a href="http://facebook.github.io/jest/">Jest</a>, Facebook&#39;s auto-mocking testing framework.</p>
 <h2><a class="anchor" name="testing-with-jest"></a>Testing with Jest <a class="hash-link" href="#testing-with-jest">#</a></h2>
 <p>For a unit test to operate on a truly isolated <em>unit</em> of the application, we need to mock every module except the one we are testing. Jest makes the mocking of other parts of a Flux application trivial. To illustrate testing with Jest, we&#39;ll return to our <a href="https://github.com/facebook/flux/tree/master/examples/flux-todomvc">example TodoMVC application</a>.</p>
 
@@ -753,7 +753,7 @@ Minified build for production: <a href="http://fb.me/react-with-addons-0.12.0-rc
   <span class="p">);</span>
 <span class="p">},</span>
 </code></pre></div>
-<p>To learn how to test React components themselves, check out the <a href="http://facebook.github.io/jest/docs/tutorial-react.html">Jest tutorial for React</a> and the <a href="http://facebook.github.io/react/docs/test-utils.html">ReactTestUtils documentation</a>.</p>
+<p>To learn how to test React components themselves, check out the <a href="http://facebook.github.io/jest/docs/tutorial-react.html">Jest tutorial for React</a> and the <a href="http://blog.cncounter.com/react/docs/test-utils.html">ReactTestUtils documentation</a>.</p>
 <h2><a class="anchor" name="further-reading"></a>Further Reading <a class="hash-link" href="#further-reading">#</a></h2>
 <ul>
 <li><a href="http://martinfowler.com/articles/mocksArentStubs.html">Mocks Aren&#39;t Stubs</a> by Martin Fowler</li>
@@ -794,21 +794,21 @@ Minified build for production: <a href="http://fb.me/react-with-addons-0.12.0-rc
   <div id="fb-root"></div>
 
   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (function(i,s,o,g,r,a,m){if(2+2>0){return;}i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-41298772-1', 'facebook.github.io');
-    ga('send', 'pageview');
+    //ga('create', 'UA-41298772-1', 'facebook.github.io');
+    //ga('send', 'pageview');
 
-    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+    //!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 
     (function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
       if (d.getElementById(id)) return;
       js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=623268441017527";
-      fjs.parentNode.insertBefore(js, fjs);
+      //js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=623268441017527";
+      //fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
   </script>
 </body>

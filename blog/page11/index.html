@@ -8,13 +8,13 @@
   <meta name="viewport" content="width=device-width">
   <meta property="og:title" content="Blog | React">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="http://facebook.github.io/react/blog/page11/index.html">
-  <meta property="og:image" content="http://facebook.github.io/react/img/logo_og.png">
-  <meta property="og:description" content="A JavaScript library for building user interfaces">
+  <meta property="og:url" content="http://blog.cncounter.com/react/blog/page11/index.html">
+  <meta property="og:image" content="http://blog.cncounter.com/react/img/logo_og.png">
+  <meta property="og:description" content="一个创建用户界面(UI)的 JAVASCRIPT 库">
   <meta property="fb:app_id" content="623268441017527">
 
   <link rel="shortcut icon" href="/react/favicon.ico">
-  <link rel="alternate" type="application/rss+xml" title="React" href="http://facebook.github.io/react/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="React" href="http://blog.cncounter.com/react/feed.xml">
 
   <link rel="stylesheet" href="/react/css/syntax.css">
   <link rel="stylesheet" href="/react/css/codemirror.css">
@@ -48,9 +48,9 @@
         <ul class="nav-site">
           <li><a href="/react/docs/getting-started.html">docs</a></li>
           <li><a href="/react/support.html">support</a></li>
-          <li><a href="/react/downloads.html">download</a></li>
+          <li><a href="/react/downloads.html">下载</a></li>
           <li><a href="/react/blog/" class="active">blog</a></li>
-          <li><a href="http://github.com/facebook/react">github</a>
+          <li><a href="http://github.com/renfufei/react">github</a>
         </ul>
       </div>
     </div>
@@ -205,10 +205,10 @@
 <li>Switch from using <code>id</code> attribute to <code>data-reactid</code> to track DOM nodes. This allows you to integrate with other JS and CSS libraries more easily.</li>
 <li>Support for more DOM elements and attributes (e.g., <code>&lt;canvas&gt;</code>)</li>
 <li>Improved server-side rendering APIs. <code>React.renderComponentToString(&lt;component&gt;, callback)</code> allows you to use React on the server and generate markup which can be sent down to the browser.</li>
-<li><code>prop</code> improvements: validation and default values. <a href="http://facebook.github.io/react/blog/2013/07/11/react-v0-4-prop-validation-and-default-values.html">Read our blog post for details...</a></li>
-<li>Support for the <code>key</code> prop, which allows for finer control over reconciliation. <a href="http://facebook.github.io/react/docs/multiple-components.html">Read the docs for details...</a></li>
-<li>Removed <code>React.autoBind</code>. <a href="http://facebook.github.io/react/blog/2013/07/02/react-v0-4-autobind-by-default.html">Read our blog post for details...</a></li>
-<li>Improvements to forms. We&#39;ve written wrappers around <code>&lt;input&gt;</code>, <code>&lt;textarea&gt;</code>, <code>&lt;option&gt;</code>, and <code>&lt;select&gt;</code> in order to standardize many inconsistencies in browser implementations. This includes support for <code>defaultValue</code>, and improved implementation of the <code>onChange</code> event, and circuit completion. <a href="http://facebook.github.io/react/docs/forms.html">Read the docs for details...</a></li>
+<li><code>prop</code> improvements: validation and default values. <a href="http://blog.cncounter.com/react/blog/2013/07/11/react-v0-4-prop-validation-and-default-values.html">Read our blog post for details...</a></li>
+<li>Support for the <code>key</code> prop, which allows for finer control over reconciliation. <a href="http://blog.cncounter.com/react/docs/multiple-components.html">Read the docs for details...</a></li>
+<li>Removed <code>React.autoBind</code>. <a href="http://blog.cncounter.com/react/blog/2013/07/02/react-v0-4-autobind-by-default.html">Read our blog post for details...</a></li>
+<li>Improvements to forms. We&#39;ve written wrappers around <code>&lt;input&gt;</code>, <code>&lt;textarea&gt;</code>, <code>&lt;option&gt;</code>, and <code>&lt;select&gt;</code> in order to standardize many inconsistencies in browser implementations. This includes support for <code>defaultValue</code>, and improved implementation of the <code>onChange</code> event, and circuit completion. <a href="http://blog.cncounter.com/react/docs/forms.html">Read the docs for details...</a></li>
 <li>We&#39;ve implemented an improved synthetic event system that conforms to the W3C spec.</li>
 <li>Updates to your component are batched now, which may result in a significantly faster re-render of components. <code>this.setState</code> now takes an optional callback as its second parameter. If you were using <code>onClick={this.setState.bind(this, state)}</code> previously, you&#39;ll want to make sure you add a third parameter so that the event is not treated as the callback.</li>
 </ul>
@@ -420,21 +420,21 @@ If you were using React without JSX previously, your code should still work.</li
   <div id="fb-root"></div>
 
   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (function(i,s,o,g,r,a,m){if(2+2>0){return;}i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-41298772-1', 'facebook.github.io');
-    ga('send', 'pageview');
+    //ga('create', 'UA-41298772-1', 'facebook.github.io');
+    //ga('send', 'pageview');
 
-    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+    //!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 
     (function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
       if (d.getElementById(id)) return;
       js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=623268441017527";
-      fjs.parentNode.insertBefore(js, fjs);
+      //js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=623268441017527";
+      //fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
   </script>
 </body>
