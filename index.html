@@ -104,24 +104,22 @@
         传给这个组件的数据可以在  <code>render()</code> 中通过 <code>this.props</code> 来获取.
       </p>
       <p>
-        <strong>在React中 JSX 是可选的存在,不强制要求.</strong> 你可以点击下面的  &quot;Compiled JS&quot; 按钮来查看 JSX 编译后的原生(raw) JavaScript 代码.
+        <strong>在React中 JSX 是可选的存在,不强制要求.</strong> 你可以点击下面的  &quot;Compiled JS&quot; 按钮来查看 JSX compiler编译后生成的纯(raw) JavaScript 代码.
       </p>
       <div id="helloExample"></div>
     </div>
     <div class="example">
-      <h3>A Stateful Component</h3>
+      <h3>一个持有状态(Stateful)的组件</h3>
       <p>
-        In addition to taking input data (accessed via <code>this.props</code>), a
-        component can maintain internal state data (accessed via <code>this.state</code>).
-        When a component&#39;s state data changes, the rendered markup will be
-        updated by re-invoking <code>render()</code>.
+        除了接受输入数据 (通过 <code>this.props</code> 获取), 一个组件可以维护内部的状态数据 (通过 <code>this.state</code> 得到).
+        当一个组件的状态数据(state data)发生改变, 通过再次调用  <code>render()</code> 方法,原来渲染生成的标签(rendered markup)将被更新.
       </p>
       <div id="timerExample"></div>
     </div>
     <div class="example">
-      <h3>An Application</h3>
+      <h3>一个应用(Application)</h3>
       <p>
-        Using <code>props</code> and <code>state</code>, we can put together a small Todo application.
+        通过 <code>props</code> 和 <code>state</code>, we can put together a small Todo application.
         This example uses <code>state</code> to track the current list of items as well as
         the text that the user has entered. Although event handlers appear to be
         rendered inline, they will be collected and implemented using event
@@ -130,7 +128,7 @@
       <div id="todoExample"></div>
     </div>
     <div class="example">
-      <h3>A Component Using External Plugins</h3>
+      <h3>使用外部插件的Component</h3>
       <p>
         React is flexible and provides hooks that allow you to interface with
         other libraries and frameworks. This example uses Showdown, an external
