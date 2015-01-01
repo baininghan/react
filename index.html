@@ -119,20 +119,19 @@
     <div class="example">
       <h3>一个应用(Application)</h3>
       <p>
-        通过 <code>props</code> 和 <code>state</code>, we can put together a small Todo application.
-        This example uses <code>state</code> to track the current list of items as well as
-        the text that the user has entered. Although event handlers appear to be
-        rendered inline, they will be collected and implemented using event
-        delegation.
+        通过 <code>props</code> 和 <code>state</code>, 我们就可以实现一个简单的应用程序:  Todo(备忘便签). 
+下面的示例用  <code>state</code> 记录当前的 item 列表,以及用户输入到文本框中的文本内容. 
+虽然事件处理器(event handlers)看起来写在了行内,但实际上是被编译器收集整理并通过事件代理来实现的.
       </p>
       <div id="todoExample"></div>
     </div>
     <div class="example">
       <h3>使用外部插件的Component</h3>
       <p>
-        React is flexible and provides hooks that allow you to interface with
+        React 超级灵活, 提供了很多钩子(hooks),可以用来挂接其他的JS类库/框架 that allow you to interface with
         other libraries and frameworks. This example uses Showdown, an external
         Markdown library, to convert the textarea&#39;s value in real-time.
+        React 超级灵活,提供了许多钩子(hook) 以允许和其他库/框架关联. 下面的示例使用了一个扩展的 Markdown 库: Showdown,将文本内容实时转换后展现出来.
       </p>
       <div id="markdownExample"></div>
     </div>
