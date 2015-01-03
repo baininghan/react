@@ -66,17 +66,17 @@
       <ul>
         
           <li>
-            <a href="/react/docs/getting-started.zh-CN.html">Getting Started</a>
+            <a href="/react/docs/getting-started.zh-CN.html">快速入门</a>
             
           </li>
         
           <li>
-            <a href="/react/docs/tutorial.html">Tutorial</a>
+            <a href="/react/docs/tutorial.zh-CN.html">教程</a>
             
           </li>
         
           <li>
-            <a href="/react/docs/thinking-in-react.html">Thinking in React</a>
+            <a href="/react/docs/thinking-in-react.html">React开发步骤</a>
             
           </li>
         
@@ -84,7 +84,7 @@
     </div>
   
     <div class="nav-docs-section">
-      <h3>Community Resources</h3>
+      <h3>社区参考资料</h3>
       <ul>
         
           <li>
@@ -284,7 +284,7 @@
           </li>
         
           <li>
-            <a href="http://facebook.github.io/flux/docs/todo-list.html">Flux TodoMVC Tutorial</a>
+            <a href="http://facebook.github.io/flux/docs/todo-list.html">Flux TodoMVC 教程</a>
             
           </li>
         
@@ -382,7 +382,7 @@
     <p>React provides a <code>ReactTransitionGroup</code> addon component as a low-level API for animation, and a <code>ReactCSSTransitionGroup</code> for easily implementing basic CSS animations and transitions.</p>
 <h2><a class="anchor" name="high-level-api-reactcsstransitiongroup"></a>High-level API: <code>ReactCSSTransitionGroup</code> <a class="hash-link" href="#high-level-api-reactcsstransitiongroup">#</a></h2>
 <p><code>ReactCSSTransitionGroup</code> is based on <code>ReactTransitionGroup</code> and is an easy way to perform CSS transitions and animations when a React component enters or leaves the DOM. It&#39;s inspired by the excellent <a href="http://www.nganimate.org/">ng-animate</a> library.</p>
-<h3><a class="anchor" name="getting-started"></a>Getting Started <a class="hash-link" href="#getting-started">#</a></h3>
+<h3><a class="anchor" name="getting-started"></a>快速入门 <a class="hash-link" href="#getting-started">#</a></h3>
 <p><code>ReactCSSTransitionGroup</code> is the interface to <code>ReactTransitions</code>. This is a simple element that wraps all of the components you are interested in animating. Here&#39;s an example where we fade list items in and out.</p>
 <div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">ReactCSSTransitionGroup</span> <span class="o">=</span> <span class="nx">React</span><span class="p">.</span><span class="nx">addons</span><span class="p">.</span><span class="nx">CSSTransitionGroup</span><span class="p">;</span>
 
@@ -447,7 +447,7 @@
   <span class="k">opacity</span><span class="o">:</span> <span class="m">0</span><span class="o">.</span><span class="m">01</span><span class="p">;</span>
 <span class="p">}</span>
 </code></pre></div><h3><a class="anchor" name="animation-group-must-be-mounted-to-work"></a>Animation Group Must Be Mounted To Work <a class="hash-link" href="#animation-group-must-be-mounted-to-work">#</a></h3>
-<p>In order for it to apply transitions to its children, the <code>ReactCSSTransitionGroup</code> must already be mounted in the DOM. The example below would not work, because the <code>ReactCSSTransitionGroup</code> is being mounted along with the new item, instead of the new item being mounted within it. Compare this to the <a href="#getting-started">Getting Started</a> section above to see the difference.</p>
+<p>In order for it to apply transitions to its children, the <code>ReactCSSTransitionGroup</code> must already be mounted in the DOM. The example below would not work, because the <code>ReactCSSTransitionGroup</code> is being mounted along with the new item, instead of the new item being mounted within it. Compare this to the <a href="#getting-started">快速入门</a> section above to see the difference.</p>
 <div class="highlight"><pre><code class="language-javascript" data-lang="javascript">  <span class="nx">render</span><span class="o">:</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
     <span class="kd">var</span> <span class="nx">items</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">state</span><span class="p">.</span><span class="nx">items</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">item</span><span class="p">,</span> <span class="nx">i</span><span class="p">)</span> <span class="p">{</span>
       <span class="k">return</span> <span class="p">(</span>
