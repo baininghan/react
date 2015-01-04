@@ -7,9 +7,9 @@ var HELLO_COMPONENT =
 		+"\n"
 		+"  render: function() {"
 		+"\n"
-		+"/"+"/"+"你可以修改此处的代码,右边将动态显示结果"
+		+"    /"+"/"+"你可以修改此处的代码,右边将动态显示结果"
 		+"\n"
-		+"    return <div>Hello {this.props.name}</div>;"
+		+"    return <div> {this.props.name},我们做朋友好不好^_^</div>;"
 		+"\n"
 		+"  }"
 		+"\n"
@@ -17,7 +17,7 @@ var HELLO_COMPONENT =
 	+");"
 	
 	+"\n\n"
-	+"React.render(<HelloMessage name=\"John\" />, mountNode);"
+	+"React.render(<HelloMessage name=\"土豪\" />, mountNode);"
 	+"\n"
 
 );

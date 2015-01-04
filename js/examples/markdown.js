@@ -9,7 +9,7 @@ var MARKDOWN_COMPONENT =
 		+"\n"
 		+"  getInitialState: function() {"
 		+"\n"
-		+"    return {value: 'Type some *markdown* here!'};"
+		+"    return {value: '##试试MarkDown\\n ![](/react/img/logo_small.png)'};"
 		+"\n"
 		+"  },"
 		+"\n"
