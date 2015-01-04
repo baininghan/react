@@ -103,7 +103,7 @@
 <li><strong>React</strong><br>
 Dev build with warnings: <a href="http://fb.me/react-0.12.0-rc1.js">http://fb.me/react-0.12.0-rc1.js</a><br>
 Minified build for production: <a href="http://fb.me/react-0.12.0-rc1.min.js">http://fb.me/react-0.12.0-rc1.min.js</a><br></li>
-<li><strong>React with Add-Ons</strong><br>
+<li><strong>React with 附加组件</strong><br>
 Dev build with warnings: <a href="http://fb.me/react-with-addons-0.12.0-rc1.js">http://fb.me/react-with-addons-0.12.0-rc1.js</a><br>
 Minified build for production: <a href="http://fb.me/react-with-addons-0.12.0-rc1.min.js">http://fb.me/react-with-addons-0.12.0-rc1.min.js</a><br></li>
 <li><strong>In-Browser JSX transformer</strong><br>
@@ -136,7 +136,7 @@ Minified build for production: <a href="http://fb.me/react-with-addons-0.12.0-rc
 <p>Currently we still use the whitelist as a sanity check. The transform will fail when it encounters an unknown tag. This allows you to update your code without hitting errors in production.</p>
 
 <p>In addition, the HTML tags are converted to strings instead of using <code>React.DOM</code> directly. <code>&lt;div/&gt;</code> becomes <code>React.createElement(&#39;div&#39;)</code> instead of <code>React.DOM.div()</code>.</p>
-<h3><a class="anchor" name="jsx-spread-attributes"></a>JSX Spread Attributes <a class="hash-link" href="#jsx-spread-attributes">#</a></h3>
+<h3><a class="anchor" name="jsx-spread-attributes"></a>JSX扩展属性(Spread Attribute) <a class="hash-link" href="#jsx-spread-attributes">#</a></h3>
 <p>Previously there wasn&#39;t a way to for you to pass a dynamic or unknown set of properties through JSX. This is now possible using the spread <code>...</code> operator.</p>
 <div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">myProps</span> <span class="o">=</span> <span class="p">{</span> <span class="nx">a</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span> <span class="nx">b</span><span class="o">:</span> <span class="mi">2</span> <span class="p">};</span>
 <span class="k">return</span> <span class="o">&lt;</span><span class="nx">MyComponent</span> <span class="p">{...</span><span class="nx">myProps</span><span class="p">}</span> <span class="o">/&gt;</span><span class="p">;</span>
